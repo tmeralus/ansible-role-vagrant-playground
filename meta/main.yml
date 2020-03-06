@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  role_name: vagrant_playground
+  role_name: vagrant_setup
   author: tmeralus
   description: ansible playbook to deploy vagrant containers
   issue_tracker_url: https://github.com/tmeralus/ansible-role-vagrant-playground/issues
