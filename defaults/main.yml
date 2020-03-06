@@ -1,6 +1,4 @@
 ---
-# defaults file for vagrant
-
 # The version of vagrant to install. See https://releases.hashicorp.com/vagrant/ .
 vagrant_version: 2.2.7
 
@@ -19,7 +17,13 @@ _vagrant_package:
   src: "{{ vagrant_release_url }}/vagrant_{{ vagrant_version }}_linux_amd64.zip"
 
 vagrant_pip_packages:
-  - python-vagrant 
+  - python-vagrant
   - vagranttoansible
   - vagrantpy
   - ansible-vagrant
+
+os_dist:
+  - centos/7
+#  - centos/8
+
+  
